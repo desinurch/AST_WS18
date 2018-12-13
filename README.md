@@ -1,4 +1,4 @@
-![Build Status](https://travis-ci.org/{desinurch}/{AST_WS18}.png?branch=dev)
+[![Build Status](https://travis-ci.org/{desinurch}/{AST_WS18}.png?branch=dev)](https://travis-ci.org/{desinurch}/{AST_WS18})
 [![codecov.io](https://codecov.io/github/desinurch/AST_WS18/branch/dev/graph/badge.svg)](https://codecov.io/github/desinurch/AST_WS18)
 # Advanced Software Technology - Project 2018
 
