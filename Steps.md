@@ -25,4 +25,16 @@ For more info, refer to the link : https://docs.travis-ci.com/user/tutorial/
 
 ## Steps for adding the badges to README.md
 
+* To add the badge from Travis, paste the following code in the README file.
+
+```
+[![Build Status](https://travis-ci.org/{ORG-or-USERNAME}/{REPO-NAME}.png?branch=master)](https://travis-ci.org/{ORG-or-USERNAME}/{REPO-NAME})
+```
+
+* Replace the {ORG-or-USERNAME} with the username of the github.
+* Replace the {REPO-NAME} with the name of the github repository used for Travis.
+* In the field 'branch=master' choose the branch to be built.
+
+Given below is the code that is being used for our repository.
+[![Build Status](https://travis-ci.com/desinurch/AST_WS18.png?branch=dev)](https://travis-ci.com/desinurch/AST_WS18)
 
