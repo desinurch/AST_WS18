@@ -1,0 +1,21 @@
+Test Number,Sensor Inputs,Expected Output,Result
+test_0,"[(knife,1, 94%), (scissor, 2, 65%), (spoon, 3, 33%), (spoon, 4, 80%), (keys, 5, 95%)]","[(knife,1, 94%), (scissor, 2, 95%), (fork, 3, 99%), (spoon, 4, 99%), (keys, 5, 95%)]",Pass
+,"[(keys, 5, 95%), (spoon, 4, 99%),(fork, 3, 99%), (scissor, 2, 95%), (knife,1, 55%)]",,
+test_1,[empty list],[empty list],Pass
+,[empty list],,
+test_2,"[(knife,1, 99%), (scissor, 2, 65%), (spoon, 3, 33%)]","[(knife,1, 99%), (scissor, 2, 65%), (spoon, 3, 33%)]",Pass
+,[empty list],,
+test_3,"[(knife,1, 99%), (scissor, 2, 65%), (spoon, 3, 33%)]","[(knife,1, 99%), (scissor, 2, 65%), (spoon, 3, 33%)]",Pass
+,"[(KNIFE,1, 99%), (SCISSOR, 2, 65%), (SPOON, 3, 33%)]",,
+test_4,"[(knife,1, 99%), (scissor, 2, 65%)]","[(knife,1, 99%), (scissor, 2, 65%), (fork, 3, 99%), (spoon, 4, 99%)]",Pass
+,"[(fork, 3, 99%), (spoon, 4, 99%)]",,
+test_5,"[(knife,1, 94%),(knife,1, 69%),(knife,1, 89%)]","[(knife,1, 99%), (fork, 3, 99%)]",Pass
+,"[(knife,1, 99%),(fork, 3, 99%)]",,
+test_6,"[(knife,1, 89%)]","[(knife,1, 89%)]",Pass
+,"[(knife,1, 35%)]",,
+,"[(knife,1, 69%)]",,
+,"[(knife,1, 80%)]",,
+test_7,"[(knife,1, 94%), (scissor, 2, 65%), (spoon, 3, 33%), (spoon, 4, 80%), (keys, 5, 95%)]","[(knife,1, 99%), (scissor, 2, 95%), (fork, 3, 99%), (spoon, 4, 99%), (keys, 5, 95%)]",Pass
+,"[(keys, 5, 95%), (spoon, 4, 99%),(fork, 3, 99%), (scissor, 2, 95%), (knife,1, 55%)]",,
+,"[(knife,1, 99%),(fork, 3, 99%)]",,
+,"[(knife,1, 94%),(knife,1, 69%),(knife,1, 89%)]",,
