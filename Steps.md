@@ -36,5 +36,7 @@ For more info, refer to the link : https://docs.travis-ci.com/user/tutorial/
 * In the field 'branch=master' choose the branch to be built.
 
 Given below is the code that is being used for our repository.
+```
 [![Build Status](https://travis-ci.com/desinurch/AST_WS18.png?branch=dev)](https://travis-ci.com/desinurch/AST_WS18)
+```
 
