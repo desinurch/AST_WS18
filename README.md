@@ -26,5 +26,10 @@ Our software works in the following way:
 Our project consists in combining the results of different systems of identification of a set of objects by using different modalities passed through different algorithms. Our system which consists of 'n' number of cameras identifies 'm' objects placed on the table by specifying the probability, and later, our software will choose the objects identified with the most possible certainty by combining the objects with an identifier number choosing the highest probability.
 
 
-Installion and Execution of our software : 
+Installion and Execution of our software :
+
 To install our software, download the executable file (project.jar) and then run the command "java -jar project.jar" in the terminal for execution.
+
+Testing with different inputs :
+
+Currently the software cannot be tested with different inputs for sensor readings. We would be creating an option for user to input the sensor readings in the next stage.
