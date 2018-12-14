@@ -21,10 +21,10 @@ Initial Requirements:
 4. Data structure			: Array of objects
 5. Input and output format	: Array of objects
 
-the representation of our software : 
+Our software works in the following way: 
 
-Our project consists in combining the results of different systems of identification of a set of objects by using different modalities passed through different algorithms.Our system of identification which consits of a number n of cameras identifies m objects to place on the table by specifying the probability, and later, our software will fornize the objects located with the most possible certainty by combining the objects with an identifier number choosing the highest probability
+Our project consists in combining the results of different systems of identification of a set of objects by using different modalities passed through different algorithms. Our system which consists of 'n' number of cameras identifies 'm' objects placed on the table by specifying the probability, and later, our software will choose the objects identified with the most possible certainty by combining the objects with an identifier number choosing the highest probability.
 
 
-install our project : 
-To install our project, just download the executable file (project.jar),then run the command "java -jar project.jar".
+Installion and Execution of our software : 
+To install our software, download the executable file (project.jar) and then run the command "java -jar project.jar" in the terminal for execution.
