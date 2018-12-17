@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.com/desinurch/AST_WS18.png?branch=dev)](https://travis-ci.com/desinurch/AST_WS18)
 [![Coverage Status](https://coveralls.io/repos/github/desinurch/AST_WS18/badge.svg?branch=dev)](https://coveralls.io/github/desinurch/AST_WS18?branch=dev)
-<img src="https://img.shields.io/badge/Test Report-develop-blue.svg" /></a>
-<img src="https://img.shields.io/badge/Doxygen-dev-blue.svg" /></a>
+<img src="https://img.shields.io/badge/Test Report-master-blue.svg" /></a>
+<img src="https://img.shields.io/badge/Doxygen-master-blue.svg" /></a>
 
 # Advanced Software Technology - Project 2018
 
